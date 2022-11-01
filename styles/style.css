@@ -11,6 +11,55 @@ body {
   margin:0;
 }
 
+section:first-child {
+  width: 200vh;
+  height:100vh;
+  background-color: lightblue;
+}
+
+ul:first-child {
+  padding: 0;
+  margin:0;
+}
+
+section:first-child li:first-child {
+  width: 200vh;
+  height:20vh;
+  background-color: green;
+  position: relative;
+  bottom: -32em;
+  list-style: none;
+}
+
+section:first-child li:nth-of-type(2) {
+  /* image */
+}
+
+ul:nth-of-type(2) {
+  padding: 0;
+  margin:0;
+}
+
+
+
+
+section:nth-of-type(2){
+  background-color: peru;
+  width: 200vh;
+  height:100vh;
+}
+
+section:nth-of-type(2) li:first-child {
+  background-color: grey;
+  width: 200vh;
+  height:20vh;
+  position: relative;
+  bottom: -32em;
+  list-style-type: none;
+  list-style: none;
+}
+
+
 button:not([disabled]) {
   cursor:pointer;
 }
