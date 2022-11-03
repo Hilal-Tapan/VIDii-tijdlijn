@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  src: local("Trickster"),
+       url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1),
+       url("trickster-outline.otf") format("opentype"),
+       url("trickster-outline.woff") format("woff");
+}
+
