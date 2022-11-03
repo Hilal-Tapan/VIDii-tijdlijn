@@ -66,6 +66,11 @@ button {
   100% { transform: rotateY(0deg); }
 
 }
+/* Javascript class om ze te laten verdwijnen */
+.gone {
+  opacity:0%;
+ }
+
 /* muntjes */
 section:nth-of-type(1) img:nth-of-type(4) {
   position: absolute;
@@ -75,10 +80,6 @@ section:nth-of-type(1) img:nth-of-type(4) {
 
   animation: sterAnimatie 2s;
   animation-iteration-count: infinite;
-}
-
-section:nth-of-type(1) img:nth-of-type(4).gone {
- opacity:0%;
 }
 
 section:nth-of-type(1) img:nth-of-type(5) {
@@ -162,6 +163,7 @@ section:nth-of-type(1) img:nth-of-type(12) {
 }
 /* muntjes tot hier */
 
+
 @keyframes princessJump{
   0% {
     transform: translateY(0) translateX(0);
@@ -190,8 +192,13 @@ section:nth-of-type(1) img:nth-of-type(12) {
     transform: scale(1,1) translateY(0) translateX(55vw);
   }
 
+  99% {
+    opacity:1;  
+  }
+
   100% {
     transform: translateY(3vw) translateX(70vw) scale(.5,.5);
+    opacity: 0;
   }
 }
 
@@ -202,11 +209,11 @@ section:nth-of-type(1) img:nth-of-type(13) {
   left:5%;
   width: 7%;
   z-index: 100;
+
   animation: princessJump 2s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-fill-mode:forwards;
-  
 }
 
 section:nth-of-type(1) img:nth-of-type(14) {
