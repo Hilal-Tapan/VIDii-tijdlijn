@@ -11,13 +11,65 @@ body {
   margin:0;
 }
 
-/* Alle sections */
-section {
+/* achtergrond */
+section:nth-of-type(1), section:nth-of-type(2) {
   width: 100vw;
   height:100vh;
 }
 
+/* header & start knop */
+header img {
+  position: absolute;
+  bottom:35vw;
+  left:3%;
+  width:15%;
+  z-index: 1000;
+}
 
+header h2 {
+  position: absolute;
+  bottom:32vw;
+  left:3%;
+  font-family: arial;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding:0;
+  z-index: 1000;
+}
+
+header button {
+  position: absolute;
+  width: 10vw;
+  height: 3vw;
+  bottom: 28vw;
+  left: 5%;
+  z-index: 1000;
+  background:linear-gradient(90deg, crimson, darkorange, gold, yellowgreen, dodgerblue, rebeccapurple, crimson, darkorange, gold, yellowgreen, dodgerblue, rebeccapurple, crimson) left bottom / 200% 200%;
+  box-shadow: 0.02em 0.02em 0.2em black;
+  animation-play-state:paused;
+}
+
+header button:hover {
+  animation-name:knopje;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+header button.buttonStart {
+  animation-play-state:running; 
+}
+
+header button p {
+  font-family:'Common Pixel', arial;
+  text-align: center;
+  color:white;
+  margin: 0;
+  padding:0;
+  text-shadow:0 0 .1em #000, 0 0 .15em #000, 0 0 .2em #000, 0 0 .25em #000, 0 0 .3em #000;
+} 
 
 /* Level 1*/
 section:nth-of-type(1) {
@@ -32,7 +84,6 @@ section:nth-of-type(1) {
     );
 }
 
-
 /* Kasteel en co */
 section:nth-of-type(1) img:nth-of-type(1) {
   position: absolute;
@@ -44,7 +95,7 @@ section:nth-of-type(1) img:nth-of-type(1) {
 section:nth-of-type(1) img:nth-of-type(2) {
   position: absolute;
   bottom:30vw;
-  left:10%;
+  left:25%;
   width:30%;
 }
 
@@ -55,9 +106,18 @@ section:nth-of-type(1) img:nth-of-type(3) {
   width:8%;
 }
 
-/* tijdelijke button voor javascript */
-button {
-  position:fixed;
+/* logo
+section:nth-of-type(1) img:nth-of-type(4) {
+  position: absolute;
+  bottom:35vw;
+  left:3%;
+  width:15%;
+} */
+
+
+@keyframes knopje {
+  0% { background-position: left bottom ; }
+  100% { background-position: right top ; }
 }
 
 @keyframes sterAnimatie {
@@ -163,7 +223,6 @@ section:nth-of-type(1) img:nth-of-type(12) {
 }
 /* muntjes tot hier */
 
-
 @keyframes princessJump{
   0% {
     transform: translateY(0) translateX(0);
@@ -214,8 +273,14 @@ section:nth-of-type(1) img:nth-of-type(13) {
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-fill-mode:forwards;
+  animation-play-state:paused;
 }
 
+section:nth-of-type(1) img:nth-of-type(13).springen {
+  animation-play-state:running;
+}
+
+/* vloer level 1 */
 section:nth-of-type(1) img:nth-of-type(14) {
   position: absolute;
   width: 100%;
@@ -268,11 +333,21 @@ section:nth-of-type(2) ol {
   margin:0%;
 }
 
-section:nth-of-type(2) li:nth-of-type(1){
+section:nth-of-type(2) button:nth-of-type(1){
   position: absolute;
   left: 10%;
   width: 5%;
   bottom:10.5vw;
+}
+
+@keyframes animatieKelder{
+  0% {
+
+  }
+
+  100%{
+
+  }
 }
 
 section:nth-of-type(2) li:nth-of-type(2){
@@ -310,8 +385,6 @@ button:not([disabled]) {
 
 
 
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -327,6 +400,16 @@ button:not([disabled]) {
 /********************/
 /* ALGEMENE STYLING */
 /********************/
+@font-face {
+  font-family:'Common Pixel', arial;
+                                                
+  src: url('../fonts/commp___-webfont.woff') format(woff),
+       url('../fonts/commp___-webfont.woff2') format(woff2);
+
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 h1 {
   color:var(--color-headings);

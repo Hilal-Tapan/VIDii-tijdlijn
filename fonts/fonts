@@ -1,10 +1,8 @@
 
 @font-face {
-  font-family: Arial, Helvetica, sans-serif;
-  
-  src: local("Trickster"),
-       url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1),
-       url("trickster-outline.otf") format("opentype"),
-       url("trickster-outline.woff") format("woff");
-}
+  font-family:'Common Pixel', sans-serif;
+                                                
 
+  src: local("Common Pixel"),
+       url('https://fonts.cdnfonts.com/css/common-pixel')
+}
