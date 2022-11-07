@@ -36,8 +36,36 @@ wolkje2.addEventListener("click", () =>{
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 // Vind princes 3
+var findPrincess3 = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(3)");
+var princes3 = document.querySelector("section:nth-of-type(2) > ol li:nth-of-type(5)");
 
+findPrincess3.addEventListener("click", ()=> {
+    princes3.classList.add('zoekPrincess3')
+})
 
+// tekst wolkje princess 3
+var wolkje3 = document.querySelector("section:nth-of-type(2) > ol li:nth-of-type(5) button");
+
+wolkje3.addEventListener("click", () =>{
+    princes3.classList.toggle('tekstWolkje3')
+})
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+// tekst wolkje princess 4
+var princes4 = document.querySelector("section:nth-of-type(2) > ol li:nth-of-type(1)");
+var wolkje4 = document.querySelector("section:nth-of-type(2) > ol li:nth-of-type(1) button");
+
+wolkje4.addEventListener("click", () =>{
+    princes4.classList.toggle('tekstWolkje4')
+})
+
+// tekst wolkje princess 5
+var princes5 = document.querySelector("section:nth-of-type(2) > ol li:nth-of-type(4)");
+var wolkje5 = document.querySelector("section:nth-of-type(2) > ol li:nth-of-type(4) button");
+
+wolkje5.addEventListener("click", () =>{
+    princes5.classList.toggle('tekstWolkje5')
+})
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 // Animaties starten na klikken op de knop (sterretjes, princes en startknop)

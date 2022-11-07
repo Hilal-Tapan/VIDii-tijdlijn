@@ -333,6 +333,7 @@ section:nth-of-type(2) ul li:nth-of-type(2) {
 section:nth-of-type(2) ul li:nth-of-type(3) {
   width: 10%;
   left: 80%;
+  z-index: 1000;
 }
 
 /* titel van section 2 */
@@ -346,6 +347,14 @@ section:nth-of-type(2) h2 {
   font-size: 2em;
   margin: 0;
   padding:0;
+}
+
+/* princes peach 1 */
+section:nth-of-type(2) img:nth-of-type(3) {
+  position: absolute;
+  left: 2%;
+  width: 7%;
+  bottom: 10vw;
 }
 
 /* princessen kelder */
@@ -364,6 +373,30 @@ section:nth-of-type(2) ol li {
 section:nth-of-type(2) ol li:nth-of-type(1){
   left: 10%;
   width: 5%;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(1) button:focus{
+  outline: none;
+  Filter:drop-shadow(0 0 1em #E75480);
+}
+
+section:nth-of-type(2) ol li:nth-of-type(1) button:hover{
+  Filter:drop-shadow(0 0 1em #E75480);
+  transition: 0.5s;
+}
+
+/* Jeffrey mee geholpen maar snap het */
+section:nth-of-type(2) ol li:nth-of-type(1).tekstWolkje4::after{
+  content: 'Hey princess Peach from the future, I am princess Peach from the year 1985. Are you here to save us?';
+  font-family: arial;
+  background-color: #E75480;
+  color:white;
+  padding: 1em;
+  width: 15em;
+  top: -10em;
+  position: absolute;
+  border-radius: 0.5em;
+  left: 1vw;
 }
 
 @keyframes hiddenPrincess1 {
@@ -398,13 +431,26 @@ section:nth-of-type(2) ol li:nth-of-type(2).zoekPrincess1{
 }
 
 section:nth-of-type(2) ol li:nth-of-type(2).tekstWolkje1::after {
-    content: 'asdasdasdasdasd';
-    background-color: white;
+    content: 'You scared me! I am princess Peach from Super Mario Bros 2 and I have been stuck here for over 20 years!';
+    font-family: arial;
+    background-color: #E75480;
+    color:white;
     padding: 1em;
-    top: -4em;
+    width: 15em;
+    top: -8em;
     position: absolute;
     border-radius: 0.5em;
     left: 2em;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(2) button:focus{
+  outline: none;
+  Filter:drop-shadow(0 0 1em #E75480);
+}
+
+section:nth-of-type(2) ol li:nth-of-type(2) button:hover{
+  Filter:drop-shadow(0 0 1em #E75480);
+  transition: 0.5s;
 }
 
 @keyframes hiddenPrincess2 {
@@ -448,13 +494,26 @@ section:nth-of-type(2) ol li:nth-of-type(3).zoekPrincess2{
 }
 
 section:nth-of-type(2) ol li:nth-of-type(3).tekstWolkje2::after {
-  content: 'asdasdasdasdasd';
-  background-color: white;
+  content: 'I am SO excited! Please tell me you know the way out of here... I can not wait to paint my nails again! Btw I am from Super Mario World 1991. ';
+  background-color: #E75480;
+  color:white;
+  font-family: arial;
+  width: 20em;
   padding: 1em;
-  top: -4em;
+  top: -7em;
   position: absolute;
   border-radius: 0.5em;
   left: 2em;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(3) button:focus{
+  outline: none;
+  Filter:drop-shadow(0 0 1em #E75480);
+}
+
+section:nth-of-type(2) ol li:nth-of-type(3) button:hover{
+  Filter:drop-shadow(0 0 1em #E75480);
+  transition: 0.5s;
 }
 
 section:nth-of-type(2) ol li:nth-of-type(4){
@@ -462,9 +521,81 @@ section:nth-of-type(2) ol li:nth-of-type(4){
   width: 5%;
 }
 
+section:nth-of-type(2) ol li:nth-of-type(4).tekstWolkje5::after {
+  content: 'I am Peach from the Super Mario All-Stars. Hey Princes from Super Mario 64 come out! We have a visitor. ';
+  background-color: #E75480;
+  color:white;
+  font-family: arial;
+  width: 20em;
+  padding: 1em;
+  top: -8em;
+  position: absolute;
+  border-radius: 0.5em;
+  left: 0em;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(4) button:focus{
+  outline: none;
+  Filter:drop-shadow(0 0 1em #E75480);
+}
+
+section:nth-of-type(2) ol li:nth-of-type(4) button:hover{
+  Filter:drop-shadow(0 0 1em #E75480);
+  transition: 0.5s;
+}
+
+@keyframes hiddenPrincess3 {
+  0% {
+    transform: translateX(0vw);
+   }
+  
+   10% {
+     transform: translateX(-4vw);
+   }
+  
+   15% {
+    transform: translateX(0vw);
+  }
+  
+   100% {
+    transform: translateX(-8vw);
+   }
+ }
+
 section:nth-of-type(2) ol li:nth-of-type(5){
-  right: 20%;
+  right: 13%;
   width: 6%;
+  animation: hiddenPrincess3 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-play-state:paused;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(5).zoekPrincess3{
+  animation-play-state:running;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(5).tekstWolkje3::after {
+  content: 'Did i hear a visitor? Bad news, i think you are here stuck with us now...';
+  font-family: arial;
+  background-color: #E75480;
+  color:white;
+  width: 15em;
+  padding: 1em;
+  top: -8em;
+  position: absolute;
+  border-radius: 0.5em;
+  left: 2em;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(5) button:focus{
+  outline: none;
+  Filter:drop-shadow(0 0 1em #E75480);
+}
+
+section:nth-of-type(2) ol li:nth-of-type(5) button:hover{
+  Filter:drop-shadow(0 0 1em #E75480);
+  transition: 0.5s;
 }
 
 section:nth-of-type(2) button {
