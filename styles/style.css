@@ -26,7 +26,7 @@ header img {
   z-index: 1000;
 }
 
-header h2 {
+header > h2 {
   position: absolute;
   bottom:32vw;
   left:3%;
@@ -291,7 +291,6 @@ section:nth-of-type(1) img:nth-of-type(14) {
 section:nth-of-type(2) {
   position: relative;
   background-color:black;
-  z-index: -1000;
 }
 
 section:nth-of-type(2) > img:nth-of-type(1) {
@@ -322,11 +321,13 @@ section:nth-of-type(2) ul li {
 section:nth-of-type(2) ul li:nth-of-type(1) {
   width: 10%;
   left: 20%;
+  z-index: 1000;
 }
 
 section:nth-of-type(2) ul li:nth-of-type(2) {
   width: 10%;
   left: 50%;
+  z-index: 1000;
 }
 
 section:nth-of-type(2) ul li:nth-of-type(3) {
@@ -334,7 +335,23 @@ section:nth-of-type(2) ul li:nth-of-type(3) {
   left: 80%;
 }
 
+/* titel van section 2 */
+section:nth-of-type(2) h2 {
+  position: absolute;
+  color: white;
+  z-index: 1000;
+  bottom:40vw;
+  left:30vw;
+  font-family: arial;
+  font-size: 2em;
+  margin: 0;
+  padding:0;
+}
+
 /* princessen kelder */
+ ol {
+  margin:0;
+}
 
 section:nth-of-type(2) ol li {
   position: absolute;
@@ -349,14 +366,95 @@ section:nth-of-type(2) ol li:nth-of-type(1){
   width: 5%;
 }
 
-section:nth-of-type(2) ol li:nth-of-type(2){
-  left: 30%;
-  width: 4%;
+@keyframes hiddenPrincess1 {
+ 0% {
+  transform: translateY(0vw);
+ }
+
+ 10% {
+   transform: translateY(-5vw);
+ }
+
+ 20% {
+  transform: translateY(0vw);
 }
 
+ 100% {
+  transform: translateY(-10vw);
+ }
+}
+
+section:nth-of-type(2) ol li:nth-of-type(2){
+  left: 23%;
+  width: 4%;
+  animation: hiddenPrincess1 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-play-state:paused;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(2).zoekPrincess1{
+  animation-play-state:running;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(2).tekstWolkje1::after {
+    content: 'asdasdasdasdasd';
+    background-color: white;
+    padding: 1em;
+    top: -4em;
+    position: absolute;
+    border-radius: 0.5em;
+    left: 2em;
+}
+
+@keyframes hiddenPrincess2 {
+  0% {
+   transform: translateY(0vw);
+  }
+  10% {
+    transform: translateY(-20vw);
+  }
+  30% {
+    transform: translateY(-10vw);
+  }
+  40% {
+    transform: translateY(-20vw);
+  }
+  60% {
+    transform: translateY(-10vw);
+  }
+  70% {
+    transform: translateY(-20vw);
+  }
+  90% {
+    transform: translateY(-10vw);
+  }
+  100% {
+   transform: translateY(-10vw);
+  }
+ }
+
 section:nth-of-type(2) ol li:nth-of-type(3){
-  left: 43%;
+  left: 52%;
   width: 5%;
+  animation: hiddenPrincess2 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-play-state:paused;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(3).zoekPrincess2{
+  animation-play-state:running;
+}
+
+section:nth-of-type(2) ol li:nth-of-type(3).tekstWolkje2::after {
+  content: 'asdasdasdasdasd';
+  background-color: white;
+  padding: 1em;
+  top: -4em;
+  position: absolute;
+  border-radius: 0.5em;
+  left: 2em;
 }
 
 section:nth-of-type(2) ol li:nth-of-type(4){
@@ -380,12 +478,9 @@ section:nth-of-type(2) button img {
   width:100%;
 }
 
-
 button:not([disabled]) {
   cursor:pointer;
 }
-
-
 
 
 /*********************/
