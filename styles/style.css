@@ -23,9 +23,7 @@
 
   /* Achtergrond gradient */
   --color-deepSkyBlue: deepskyblue;
-  --color-lightblue: pink;
-  --color-forestgreen: forestgreen;
-  --color-darkgreen: darkgreen;
+  --color-lightpink: pink;
   --color-burlywood: burlywood;
 
   /* Knopje linear gradient */
@@ -42,9 +40,7 @@
   :root {
     /* Achtergrond gradient */
     --color-deepSkyBlue: darkblue;
-    --color-lightblue: pink;
-    --color-forestgreen: forestgreen;
-    --color-darkgreen: darkgreen;
+    --color-lightpink: pink;
     --color-burlywood: burlywood;
   }
 }
@@ -128,9 +124,9 @@ section:nth-of-type(1) {
   position: relative;
   background-image:
     linear-gradient(var(--color-deepSkyBlue),
-      var(--color-lightblue) 85%,
-      var(--color-forestgreen)85% 87%,
-      var(--color-darkgreen)89%,
+      var(--color-lightpink) 85%,
+      var(--color-lightpink)85% 87%,
+      var(--color-lightpink)89%,
       var(--color-burlywood)90%);
 }
 
@@ -350,7 +346,7 @@ section:nth-of-type(1) img:nth-of-type(13).springen {
 section:nth-of-type(1) img:nth-of-type(14) {
   position: absolute;
   width: 100%;
-  height: 9vw;
+  height: 8vw;
   bottom: 0%
 }
 
