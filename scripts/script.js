@@ -148,3 +148,11 @@ function muntjesWeg() {
 //   function hideImage(){
 //     setTimeout( "doHide()", 4000 ) ;
 // }
+
+var toBottom = document.querySelector("section:nth-of-type(1) button");
+var bottomPls = document.querySelector('section:nth-of-type(2)')
+
+toBottom.addEventListener("click", ()=> {
+    bottomPls.scrollIntoView({behavior: 'smooth'});
+    // waarde meegegeven dat die smooth gaat
+});

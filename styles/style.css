@@ -68,7 +68,7 @@ section:nth-of-type(2) {
 /* Header & start knop */
 header img {
   position: absolute;
-  bottom: 35vw;
+  bottom: 38vw;
   left: 3%;
   width: 15%;
   z-index: 1000;
@@ -76,7 +76,7 @@ header img {
 
 header>h2 {
   position: absolute;
-  bottom: 32vw;
+  bottom: 35vw;
   left: 2%;
   font-family: arial;
   font-size: .9em;
@@ -91,7 +91,7 @@ header button {
   position: absolute;
   width: 10vw;
   height: 3vw;
-  bottom: 28vw;
+  bottom: 30vw;
   left: 5%;
   z-index: 1000;
   background: linear-gradient(90deg, var(--color-1), var(--color-2), var(--color-3), var(--color-4), var(--color-5), var(--color-6), var(--color-1), var(--color-2), var(--color-1), var(--color-4), var(--color-5), var(--color-6), var(--color-1)) left bottom / 200% 200%;
@@ -119,6 +119,7 @@ header button p {
   text-shadow: 0 0 .1em var(--color-black), 0 0 .15em var(--color-black), 0 0 .2em var(--color-black), 0 0 .25em var(--color-black), 0 0 .3em var(--color-black);
 }
 
+
 /* Level 1*/
 section:nth-of-type(1) {
   position: relative;
@@ -131,7 +132,7 @@ section:nth-of-type(1) {
 }
 
 /* Kasteel en wolken */
-section:nth-of-type(1) img:nth-of-type(1) {
+section:nth-of-type(1) > img:nth-of-type(1) {
   position: absolute;
   bottom: 5vw;
   right: -10%;
@@ -350,6 +351,37 @@ section:nth-of-type(1) img:nth-of-type(14) {
   bottom: 0%
 }
 
+/* Arrow */
+@keyframes arrow {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+section:nth-of-type(1) button {
+  position: absolute;
+  width: 5%;
+  right:3%;
+  bottom: 2%;
+  animation: arrow 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  background:none;
+  border:none;
+}
+
+section:nth-of-type(1) button img {
+  width: 100%;
+}
+
+
 /* Kelder */
 section:nth-of-type(2) {
   position: relative;
@@ -407,7 +439,7 @@ section:nth-of-type(2) h2 {
   bottom: 40vw;
   left: 30vw;
   font-family: arial;
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 0;
   padding: 0;
 }
