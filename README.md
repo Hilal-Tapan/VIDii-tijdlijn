@@ -22,6 +22,7 @@ Blauw
 
 <details open>
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  Na even brainstormen kwam ik erachter dat ik princess Peach wou kiezen voor mijn opdracht. Mario is een spel wat ik vroeger altijd speelde, maar iedereen koos Mario. Dus het leek me leuk om voor Peach te gaan, ook omdat ik haar levels visueel mooi vind en visueel mooi maken is een uitdaging voor mij. Dus Peach leek me een goede optie om dit leerdoel op de kunnen beoefenen. Peach heeft ook best wel veel evoluties gehad door de jaren heen dus ik had genoeg opties voor de tijdlijn.
 
   ### De eerste versie/schets:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
@@ -34,7 +35,6 @@ Blauw
   - Animeren. Hier heb ik vorig vak bij webtypografie voor het eerst pas mee gewerkt en dit zou ik nog beter willen leren. Je kan zoveel met animatie en wil hier lekker mee experimenteren en mezelf uitdagen. De combinatie van animatie met javascript lijkt me ook erg leerzaam.
 
   - Visuele vormgeving. Dit is ook iets wat ik soms nog moeilijk vind. Om goed naar de details (paaseieren) te leren kijken. Hier wil ik mezelf ook in uitdagen.
-  - ...
  
 </details>
 
