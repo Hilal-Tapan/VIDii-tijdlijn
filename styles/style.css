@@ -43,6 +43,10 @@
     --color-lightpink: pink;
     --color-burlywood: burlywood;
   }
+
+  h2:first-of-type {
+    color:white;
+  }
 }
 
 /*************/
@@ -81,7 +85,7 @@ header>h2 {
   font-family: arial;
   font-size: .9em;
   text-align: center;
-  color: black;
+  color: var(--color-black);
   margin: 0;
   padding: 0;
   z-index: 1000;
