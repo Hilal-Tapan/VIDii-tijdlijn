@@ -12,12 +12,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Hilal Tapan (vervangen door jouw naam)
+Hilal Tapan 
 
 #### Je startniveau:
 Blauw 
-
-
 
 
 # Je plan
@@ -31,9 +29,11 @@ Blauw
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Me javascript skills verbeteren, heb hier simpelweg nog zo weinig mee gedaan en vind functies maken erg lastig nog. Ik zou dit graag willen ontwikkelen.
+
+  - Animeren. Hier heb ik vorig vak bij webtypografie voor het eerst pas mee gewerkt en dit zou ik nog beter willen leren. Je kan zoveel met animatie en wil hier lekker mee experimenteren en mezelf uitdagen. De combinatie van animatie met javascript lijkt me ook erg leerzaam.
+
+  - Visuele vormgeving. Dit is ook iets wat ik soms nog moeilijk vind. Om goed naar de details (paaseieren) te leren kijken. Hier wil ik mezelf ook in uitdagen.
   - ...
  
 </details>
