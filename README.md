@@ -237,20 +237,20 @@ Blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/bevindingen-3.1.png" alt="final ontwerp">
-  <img src="readme-images/eind.png" alt="final ontwerp">
+  <img src="images/bevindingen-3.1.png" alt="final ontwerp">
+  <img src="images/eind.png" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Animeren heb ik onwijs veel over geleerd en de basis van Javascript.
 
-  <img src="readme-images/javascript.png" width="375px" alt="javascript">
+  <img src="images/javascript.png" width="375px" alt="javascript">
 
 
   ### Dit was lastig/Is niet gelukt:
   De cursor veranderen in het hoofd van peach is me helaas niet gelukt. Ook heb ik geen tijd gehad om het responsive te maken voor mobile version, maar had dit wel graag uit willen proberen.
 
-  <img src="readme-images/peach-gezicht.png" width="375px" alt="cursor">
+  <img src="images/peach-gezicht.png" width="375px" alt="cursor">
 </details>
 
 
