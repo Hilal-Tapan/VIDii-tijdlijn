@@ -204,7 +204,7 @@ Blauw
   #### oplossing:
   Een van de eisen was dat het scherm een beetje responsive moet zijn. Ik had geen flauw benul hoe ik dit voor elkaar kon krijgen zonder mediaqueries. Ik kreeg de tip van Sanne om het vw en % te werken. Dit hielp enorm en nu is het eindwerk een klein beetje responsive. Ik heb hier veel van geleerd.
 
-  <img src="images/bevinding-3.1.jpeg" width="375px" alt="bevinding3.4">
+  <img src="images/eind1.png" width="375px" alt="bevinding3.4">
   <img src="images/bevinding3.4.png" width="375px" alt="bevinding3.4">
 
 
