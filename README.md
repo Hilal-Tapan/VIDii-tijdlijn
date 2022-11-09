@@ -229,7 +229,7 @@ Blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="images/bevinding-3.1.png" alt="final ontwerp">
+  <img src="images/eind1.png" alt="final ontwerp">
   <img src="images/eind.png" alt="final ontwerp">
 
 
