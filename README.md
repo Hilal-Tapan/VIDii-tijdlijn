@@ -54,6 +54,8 @@ Blauw
 
   #### oplossing:
   Ik kreeg de feedback dat ik nog geen progressive disclosure had en dit klopt. Ik moest nog nadenken over hoe ik de informatie naar voren wou laten komen. Ik heb dit uiteindelijk gedaan met de kelder waar alle princessen in vastzaten. Hen moet je eerst zoeken want sommige zitten verstopt en daarna als je op ze klikt komt er een tekst bubbel met informatie en een klein verhaaltje tevoorschijn. De princessen heb ik een button gemaakt en een hover en active state gegeven zodat de gebruiker weet dat ze klikbaar zijn. Met toggle kan je de tekstbubbels ook weer uitzetten.
+  <img src="images/bevinding1.png" width="375px" alt="final ontwerp">
+  <img src="images/bevinding-1.png" width="375px" alt="final ontwerp">
 
 
 
@@ -61,9 +63,9 @@ Blauw
   Met javascript het karakter interactiever maken.
 
   #### oplossing:
-  Bij level 1 met princes peach die springt om de munten te vangen was het in mijn schets nog niet heel interactief. Hierdoor heb ik een knop toegevoegd die zegt start game. Zo lijkt het echt een beetje op een spelletje. Ik wou eigenlijk peach de muis laten volgen zodat het nog interactiever is en je echt de muntjes kan vangen maar hier had ik geen genoeg tijd voor dus heb het gelaten bij een setTimeOut waardoor de muntjes verdwijnen na een bepaald aantal seconden nadat er op de start knop wordt geklikt. Ook start dan pas de spring animatie van princes Peach.
-  <img src="images/bevinding1.png" width="375px" alt="final ontwerp">
-  <img src="images/bevinding-1.png" width="375px" alt="final ontwerp">
+  Bij level 1 met princes peach die springt om de munten te vangen was het in mijn schets nog niet heel interactief. Hierdoor heb ik een knop toegevoegd die zegt start game. Deze knop heeft ook een hover state met animatie, probeer hem uit zou ik zeggen. Zo lijkt het echt een beetje op een spelletje. Ik wou eigenlijk peach de muis laten volgen zodat het nog interactiever is en je echt de muntjes kan vangen maar hier had ik geen genoeg tijd voor dus heb het gelaten bij een setTimeOut waardoor de muntjes verdwijnen na een bepaald aantal seconden nadat er op de start knop wordt geklikt. Ook start dan pas de spring animatie van princes Peach.
+  <img src="images/bevinding-2.png" width="375px" alt="final ontwerp">
+  <img src="images/bevinding2.png" width="375px" alt="final ontwerp">
 
 
   ### Bevinding 3 (van Keïsha):
@@ -71,6 +73,9 @@ Blauw
 
   #### oplossing:
   Ik wist zelf nog niet helemaal wat ik wou doen met de kelder en hoe ik dat wou vormgeven maar Keïsha kwam met het idee dat ik het ook kon combineren met me vorige schetsen. Toen kwam ik zelf met het idee dat ik ze kon verstoppen en dit heb ik gedaan met de buizen die je ziet in de mario game. Hier heb ik animaties bij gevoegt om het interactiever te maken.
+  <img src="images/bevinding3.png" width="375px" alt="final ontwerp">
+  <img src="images/bevinding-3.png" width="375px" alt="final ontwerp">
+
 
 
 
@@ -79,6 +84,9 @@ Blauw
 
   #### oplossing:
   Ik heb een pijltje toegevoegd die ook een animatie is en beweegd waardoor het opvalt. Als je hierop klikt krijg je section 2 (de kelder) te zien. Hier zat ik even mee te knoeien en de javascript functie lukte niet helemaal. Ik was er wel bijna. Uiteindelijk heeft Jeffrey me hierbij geholpen en zei dat ik een scrollIntoView moest gebruiken en dat ik dat maar net moest weten. 
+  <img src="images/bevinding4.png" width="375px" alt="final ontwerp">
+  <img src="images/bevinding-4.png" width="375px" alt="final ontwerp">
+
 
 
 
@@ -87,6 +95,8 @@ Blauw
 
   #### oplossing:
   Ik wou mezelf uitdagen met animeren dus ik wou de sprong van peach van de bovenwereld wat mooier en vloeiender maken. Dit heb ik gedaan met behulp van deze site https://css-tricks.com/making-css-animations-feel-natural/. Ik vond dit een leuke oefening en de keyframe is voor mijn doen best complex geworden maar ik vond het vooral heel leuk om hiermee te experimenteren.
+  <img src="images/bevinding5.png" width="375px" alt="final ontwerp">
+
 
 </details>
 
