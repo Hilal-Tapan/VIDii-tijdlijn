@@ -119,7 +119,7 @@ Blauw
   #### oplossing:
   Dit vond ik hele waardevolle feedback want inderdaad er stond nergens aangegeven wat de bedoeling was. Dit heb ik gelijk toegepast door een zinnetje neer te zetten dat sommige princessen zich verstoppen en deze gezocht moeten worden.
 
-  <img src="images/bevinding-3.png" width="375px" alt="bevinding2.1">
+  <img src="images/bevinding-3.png" alt="bevinding2.1">
 
 
 
@@ -162,9 +162,6 @@ Blauw
 
   <img src="images/gezicht-peach.png" width="375px" alt="bevinding2.5">
 
-
-  
-
 </details>
 
 
@@ -175,24 +172,59 @@ Blauw
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
-  ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  ### Bevinding 1 (van Sanne):
+  Ik kreeg als feedback dat de bovenste level echt een mengelmoes was van verschillende stijlen en dat het meer in 1 stijl moet. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Hier was ik het mee eens en zat hier zelf eigenlijk ookal mee. Dus ik heb de laatste dag de tijd genomen om dit visueel mooier te maken en echt vectors te zoeken die allemaal van de nieuwste versie van mario zijn. Vooral bij het kasteel had ik hier moeite mee, maar na lang zoeken en het heel precies uitknikken op photoshop heb ik het kasteel uit 2022 kunnen gebruiken. Het kostte wel even maar nu heb ik ook wel wat.
+
+  <img src="images/bevinding3.1.png" width="375px" alt="bevinding3.1">
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Meer paaseieren toevoegen (in dit geval de wolken animeren en mooier maken).
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik had nog wat tijd over dus koos ervoor de wolken te animeren. Bij het vorige punt had ik ze al veranderd naar actuelere mario wolken. Ik heb deze 1 op 1 niet kunnen vinden als vector dus hem ze soortvan zelf gemaakt door een andere vector te bewerken in photoshop en heb ze ook een beetje transparant gemaakt waardoor ze deels over het kasteel vallen. Ik heb ze een subtiele animatie gegeven waardoor ze langzaam omhoog en omlaag gaan. Vind dit erg leuk geworden.
+
+  <img src="images/bevinding.3.1.png" width="375px" alt="bevinding3.2">
+  <img src="images/bevinding-3.1.png" width="375px" alt="bevinding3.2">
 
 
 
   ### Bevinding 3:
-  ...
+  Meer paaseieren toevoegen (in dit geval de wolken animeren en mooier maken).
+
+  #### oplossing:
+  Ik had nog wat tijd over dus koos ervoor de wolken te animeren. Bij het vorige punt had ik ze al veranderd naar actuelere mario wolken. Ik heb deze 1 op 1 niet kunnen vinden als vector dus hem ze soortvan zelf gemaakt door een andere vector te bewerken in photoshop en heb ze ook een beetje transparant gemaakt waardoor ze deels over het kasteel vallen. Ik heb ze een subtiele animatie gegeven waardoor ze langzaam omhoog en omlaag gaan. Vind dit erg leuk geworden.
+
+  <img src="images/bevinding.3.1.png" width="375px" alt="bevinding3.3">
+  <img src="images/bevinding-3.1.png" width="375px" alt="bevinding3.3">
+
+
+
+  ### Bevinding 4:
+  Meer paaseieren toevoegen (in dit geval de vloer passender bij de nieuwtse Mario vloeren).
+
+  #### oplossing:
+  Iets wat ik heel lastig vond was een actuele vloer voor section 1 vinden. Deze waren allemaal van slechte kwaliteit en met auteursrechten. Uiteindelijk kwam ik op het idee om een stukje hiervan uit te snijden en naast elkaar te plakken. Ook heb ik het wat roziger gemaakt in kleurtoon om het te laten passen bij de princess Peach stijl. Ik ben blij met het resultaat.
+
+  <img src="images/achtergrond.jpeg" width="375px" alt="bevinding3.4">
+  <img src="images/bevinding-3.1.png" width="375px" alt="bevinding3.4">
+
+
+
+
+  ### Bevinding 5:
+  Nog meer paaseieren toevoegen, light and dark-mode toevoegen.
+
+  #### oplossing:
+  Ik heb nog nooit iets gedaan met mediaqueries en met dark-mode. Hier wou ik mezelf in uitdagen om dit te proberen. Hierbij keek ik hoe Keïsha dit gedaan had en toen snapte ik hoe ik dit zelf ook kon toepassen. Ik liep gelukkig nergens tegenaan en vind het fijn nu ik weet hoe dit werkt. Ben ook erg blij met het resultaat. Ik heb van section 1 de achtergrond gradient aangepast en de h2 letters naar wit veranderd.
+
+
+  <img src="images/bevinding3.5.png" width="375px" alt="bevinding3.5">
+  <img src="images/bevinding-3.5.png" width="375px" alt="bevinding3.5">
 
 </details>
 
