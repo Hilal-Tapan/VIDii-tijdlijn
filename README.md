@@ -1,13 +1,4 @@
 # Procesverslag Hilal
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
 
 ## Jij
 
@@ -22,23 +13,24 @@ Blauw
 
 <details open>
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
-  Na even brainstormen kwam ik erachter dat ik princess Peach wou kiezen voor mijn opdracht. Mario is een spel wat ik vroeger altijd speelde, maar iedereen koos Mario. Dus het leek me leuk om voor Peach te gaan, ook omdat ik haar levels visueel mooi vind en visueel mooi maken is een uitdaging voor mij. Dus Peach leek me een goede optie om dit leerdoel op de kunnen beoefenen. Peach heeft ook best wel veel evoluties gehad door de jaren heen dus ik had genoeg opties voor de tijdlijn.
+  Na even brainstormen kwam ik erachter dat ik princess Peach wou kiezen voor mijn opdracht. Mario is een spel wat ik vroeger altijd speelde, maar iedereen koos Mario. Dus het leek me leuk om voor Peach te gaan, ook omdat ik haar levels visueel mooi vind en visueel mooi maken is een uitdaging voor mij. Dus Peach leek me een goede optie om dit leerdoel op te kunnen beoefenen. Peach heeft ook best wel veel evoluties gehad door de jaren heen dus ik had genoeg opties voor de tijdlijn. Ik ben begonnen met brainstormen en schetsen.
 
   ### De eerste versie/schets:
+  <img src="images/brainstorm.png" width="375px" alt="eerste versie/schets">
   <img src="https://github.com/Hilal-Tapan/VIDii-tijdlijn/blob/main/images/schets1.png" width="375px" alt="eerste versie/schets">
   <img src="https://github.com/Hilal-Tapan/VIDii-tijdlijn/blob/main/images/schets2.png" width="375px" alt="eerste versie/schets">
   <img src="https://github.com/Hilal-Tapan/VIDii-tijdlijn/blob/main/images/schets3.png" width="375px" alt="eerste versie/schets">
 
-  Dit is de eerste versie van me schets die ik heb uitgekozen. Het idee is dat ik de nieuwste versie van Peach wil maken in de nieuwe wereld maar alle andere Peaches zijn kwijt. Het is de bedoeling dat ze hen gaat zoeken. De eerdere versie Peaches zitten vast in de kelder van de oude versie van Mario. 
+  Dit is de eerste versie van me schets die ik heb uitgekozen. Het idee is dat ik de nieuwste versie van Peach wil maken in de nieuwe wereld maar alle andere Peaches zijn kwijt. Het is de bedoeling dat ze hen gaat zoeken. De eerdere versie Peaches zitten vast in de kelder van de oude versie van Mario. Je ziet dus zowel tussen de twee levels dus een groot visueel verschil maar ook tussen de peach karakters.
 
   <img src="images/peach-stijl.png" width="375px" alt="eerste versie/schets">
 
-  Ik wil alles doen met een beetje princess Peach stijl. Er zijn een paar levels van haar die erg rozig en meisjesachtig zijn. Dit is een uitgangspunt voor de vormgeving.
+  Ik wil alles doen met een beetje princess Peach stijl. Er zijn een paar levels van haar die erg roze en meisjesachtig zijn. Dit is een uitgangspunt voor de vormgeving.
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - Graag zou ik me javascript skills willen verbeteren, ik heb hier simpelweg nog zo weinig mee gedaan en ik vind functies maken nog erg lastig. Ik zou dit graag willen leren. Ik doe zelf regelmatig cursusjes en lees er dingen over maar ik merk dat ik het meeste leer van gewoon doen. 
+  - Graag zou ik me javascript skills willen verbeteren, ik heb hier simpelweg nog erg weinig mee gedaan en ik vind functies maken nog best lastig. Ik zou dit graag willen leren. Ik doe zelf regelmatig cursusjes en lees er dingen over maar ik merk dat ik het meeste leer van gewoon doen. 
 
   - Animeren. Hier heb ik bij webtypografie voor het eerst pas mee gewerkt en dit zou ik nog beter willen leren. Je kan zoveel met animatie, ik zou hier lekker mee willen experimenteren en mezelf uitdagen. De combinatie van animatie met javascript lijkt me ook erg leerzaam en iets wat ik wil gaan doen.
 
@@ -196,7 +188,7 @@ Blauw
 
 
   ### Bevinding 3:
-  Meer paaseieren toevoegen (in dit geval de vloer passender bij de nieuwtse Mario vloeren).
+  Meer paaseieren toevoegen (in dit geval de vloer passender bij de niewste Mario vloeren).
 
   #### oplossing:
   Iets wat ik heel lastig vond was een actuele vloer voor section 1 vinden. Deze waren allemaal van slechte kwaliteit en met auteursrechten. Uiteindelijk kwam ik op het idee om een stukje hiervan uit te snijden en naast elkaar te plakken. Ook heb ik het wat roziger gemaakt in kleurtoon om het te laten passen bij de princess Peach stijl. Ik ben blij met het resultaat.
@@ -237,12 +229,12 @@ Blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="images/bevindingen-3.1.png" alt="final ontwerp">
+  <img src="images/bevinding-3.1.png" alt="final ontwerp">
   <img src="images/eind.png" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Animeren heb ik onwijs veel over geleerd en de basis van Javascript.
+  Animeren heb ik onwijs veel over geleerd en de basis van Javascript snap ik nu eindelijk, sommige javascript code is me zelfs gelukt zonder hulp en ben daar best wel trots op.
 
   <img src="images/javascript.png" width="375px" alt="javascript">
 
@@ -250,9 +242,8 @@ Blauw
   ### Dit was lastig/Is niet gelukt:
   De cursor veranderen in het hoofd van peach is me helaas niet gelukt. Ook heb ik geen tijd gehad om het responsive te maken voor mobile version, maar had dit wel graag uit willen proberen.
 
-  <img src="images/peach-gezicht.png" width="375px" alt="cursor">
+  <img src="images/gezicht-peach.png" width="375px" alt="cursor">
 </details>
-
 
 
 
