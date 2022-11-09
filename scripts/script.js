@@ -130,25 +130,6 @@ function muntjesWeg() {
 }
 
 
-// variabelen timer
-// var muntjes = 0;
-// var mijnInterval = setInterval( function(){
-//     muntjes++;
-//     console.log(muntjes)
-//     if(muntjes > 8){
-//         clearInterval(mijnInterval);
-//         console.log('klaar')
-//     }
-// }, 1000);
-// Waarom interval als ze aangaf dat de muntjes op verschillende tijden moesten verdwijnen?
-
-//   function doHide(){
-//     document.getElementById( "imgHideShow" ).style.display = "none" ;
-// }
-//   function hideImage(){
-//     setTimeout( "doHide()", 4000 ) ;
-// }
-
 var toBottom = document.querySelector("section:nth-of-type(1) button");
 var bottomPls = document.querySelector('section:nth-of-type(2)')
 

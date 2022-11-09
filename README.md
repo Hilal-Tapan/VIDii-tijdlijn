@@ -28,7 +28,12 @@ Blauw
   <img src="https://github.com/Hilal-Tapan/VIDii-tijdlijn/blob/main/images/schets1.png" width="375px" alt="eerste versie/schets">
   <img src="https://github.com/Hilal-Tapan/VIDii-tijdlijn/blob/main/images/schets2.png" width="375px" alt="eerste versie/schets">
   <img src="https://github.com/Hilal-Tapan/VIDii-tijdlijn/blob/main/images/schets3.png" width="375px" alt="eerste versie/schets">
+
   Dit is de eerste versie van me schets die ik heb uitgekozen. Het idee is dat ik de nieuwste versie van Peach wil maken in de nieuwe wereld maar alle andere Peaches zijn kwijt. Het is de bedoeling dat ze hen gaat zoeken. De eerdere versie Peaches zitten vast in de kelder van de oude versie van Mario. 
+
+  <img src="images/peach-stijl.png" width="375px" alt="eerste versie/schets">
+
+  Ik wil alles doen met een beetje princess Peach stijl. Er zijn een paar levels van haar die erg rozig en meisjesachtig zijn. Dit is een uitgangspunt voor de vormgeving.
 
 
   ### Je ambitie: 
@@ -40,7 +45,6 @@ Blauw
   - Visuele vormgeving is ook iets wat ik soms nog moeilijk vind. Om goed naar de details (paaseieren) te leren kijken. Vooral als het een vak is waar zowel code en vormgeving belangrijk zijn zoals bij dit vak vind ik het soms lastig om beide evenveel aandacht te geven. Hier wil ik mezelf ook in uitdagen om goed naar de details te kijken en echt me tijd in beide aspecten te stoppen.
  
 </details>
-
 
 
 
@@ -70,6 +74,7 @@ Blauw
   <img src="images/bevinding2.png" width="375px" alt="bevinding2">
 
 
+
   ### Bevinding 3 (van Keïsha):
   Je kan ook ideeën uit je vorige schetsen combineren met je eindschets zodat het completer wordt.
 
@@ -78,7 +83,6 @@ Blauw
 
   <img src="images/bevinding3.png" width="375px" alt="bevinding3">
   <img src="images/bevinding-3.png" width="375px" alt="bevinding3">
-
 
 
 
@@ -93,7 +97,6 @@ Blauw
 
 
 
-
   ### Bevinding 5:
   De sprong van princess Peach vloeiender en mooier maken
 
@@ -102,9 +105,7 @@ Blauw
 
   <img src="images/bevinding5.png" width="375px" alt="bevinding5">
 
-
 </details>
-
 
 
 
@@ -153,6 +154,7 @@ Blauw
 
   <img src="images/bevinding2.4.png" width="375px" alt="bevinding2.4">
 
+
   
   ### Bevinding 5:
   Bij de hover state van de gevangen princessen wou ik graag de cursor veranderen in het hoofd van de princes die niet vast zat, zodat het leek alsof ze echt met de andere princessen ging praten.
@@ -176,7 +178,7 @@ Blauw
   Ik kreeg als feedback dat de bovenste level echt een mengelmoes was van verschillende stijlen en dat het meer in 1 stijl moet. 
 
   #### oplossing:
-  Hier was ik het mee eens en zat hier zelf eigenlijk ookal mee. Dus ik heb de laatste dag de tijd genomen om dit visueel mooier te maken en echt vectors te zoeken die allemaal van de nieuwste versie van mario zijn. Vooral bij het kasteel had ik hier moeite mee, maar na lang zoeken en het heel precies uitknikken op photoshop heb ik het kasteel uit 2022 kunnen gebruiken. Het kostte wel even maar nu heb ik ook wel wat.
+  Hier was ik het mee eens en zat hier zelf eigenlijk ookal mee. Dus ik heb de laatste dag de tijd genomen om dit visueel mooier te maken en echt vectors te zoeken die allemaal van de nieuwste versie van mario zijn. Vooral bij het kasteel had ik hier moeite mee, maar na lang zoeken en het heel precies uitsnijden op photoshop heb ik het kasteel uit 2022 kunnen gebruiken. Het kostte wel even maar nu heb ik ook wel wat.
 
   <img src="images/bevinding3.1.png" width="375px" alt="bevinding3.1">
 
@@ -194,25 +196,24 @@ Blauw
 
 
   ### Bevinding 3:
-  Meer paaseieren toevoegen (in dit geval de wolken animeren en mooier maken).
-
-  #### oplossing:
-  Ik had nog wat tijd over dus koos ervoor de wolken te animeren. Bij het vorige punt had ik ze al veranderd naar actuelere mario wolken. Ik heb deze 1 op 1 niet kunnen vinden als vector dus hem ze soortvan zelf gemaakt door een andere vector te bewerken in photoshop en heb ze ook een beetje transparant gemaakt waardoor ze deels over het kasteel vallen. Ik heb ze een subtiele animatie gegeven waardoor ze langzaam omhoog en omlaag gaan. Vind dit erg leuk geworden.
-
-  <img src="images/bevinding.3.1.png" width="375px" alt="bevinding3.3">
-  <img src="images/bevinding-3.1.png" width="375px" alt="bevinding3.3">
-
-
-
-  ### Bevinding 4:
   Meer paaseieren toevoegen (in dit geval de vloer passender bij de nieuwtse Mario vloeren).
 
   #### oplossing:
   Iets wat ik heel lastig vond was een actuele vloer voor section 1 vinden. Deze waren allemaal van slechte kwaliteit en met auteursrechten. Uiteindelijk kwam ik op het idee om een stukje hiervan uit te snijden en naast elkaar te plakken. Ook heb ik het wat roziger gemaakt in kleurtoon om het te laten passen bij de princess Peach stijl. Ik ben blij met het resultaat.
 
-  <img src="images/achtergrond.jpeg" width="375px" alt="bevinding3.4">
-  <img src="images/bevinding-3.1.png" width="375px" alt="bevinding3.4">
+  <img src="images/achtergrond.jpeg" width="375px" alt="bevinding3.3">
+  <img src="images/bevinding-3.1.png" width="375px" alt="bevinding3.3">
 
+
+
+  ### Bevinding 4:
+  Het werk responsive krijgen voor verschillende laptop schermen.
+
+  #### oplossing:
+  Een van de eisen was dat het scherm een beetje responsive moet zijn. Ik had geen flauw benul hoe ik dit voor elkaar kon krijgen zonder mediaqueries. Ik kreeg de tip van Sanne om het vw en % te werken. Dit hielp enorm en nu is het eindwerk een klein beetje responsive. Ik heb hier veel van geleerd.
+
+  <img src="images/bevinding-3.1.jpeg" width="375px" alt="bevinding3.4">
+  <img src="images/bevinding3.4.png" width="375px" alt="bevinding3.4">
 
 
 
@@ -221,7 +222,6 @@ Blauw
 
   #### oplossing:
   Ik heb nog nooit iets gedaan met mediaqueries en met dark-mode. Hier wou ik mezelf in uitdagen om dit te proberen. Hierbij keek ik hoe Keïsha dit gedaan had en toen snapte ik hoe ik dit zelf ook kon toepassen. Ik liep gelukkig nergens tegenaan en vind het fijn nu ik weet hoe dit werkt. Ben ook erg blij met het resultaat. Ik heb van section 1 de achtergrond gradient aangepast en de h2 letters naar wit veranderd.
-
 
   <img src="images/bevinding3.5.png" width="375px" alt="bevinding3.5">
   <img src="images/bevinding-3.5.png" width="375px" alt="bevinding3.5">
@@ -237,19 +237,20 @@ Blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/bevindingen-3.1.png" alt="final ontwerp">
+  <img src="readme-images/eind.png" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Animeren heb ik onwijs veel over geleerd en de basis van Javascript.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/javascript.png" width="375px" alt="javascript">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  De cursor veranderen in het hoofd van peach is me helaas niet gelukt. Ook heb ik geen tijd gehad om het responsive te maken voor mobile version, maar had dit wel graag uit willen proberen.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/peach-gezicht.png" width="375px" alt="cursor">
 </details>
 
 
@@ -260,10 +261,62 @@ Blauw
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+1. Hulp: 
+Jeffrey 
+Sanne 
 
-1. bron 1
-2. bron 2
-3. ...
+2. (Transparent gradient bij button) (uiteindelijk niet gebruikt in eindwerk)
+https://stackoverflow.com/questions/22672368/how-to-make-a-transparent-html-button
+https://www.youtube.com/watch?v=y92gnXrmmnA  
+
+5. Codepen Sanne voor princes animaties met javascript
+https://codepen.io/hilallx/pen/RwJRgQa?editors=0010 
+
+
+6. Scroll into new section met button
+https://stackoverflow.com/questions/8773921/how-to-automatically-scroll-down-a-html-page 
+https://stackoverflow.com/questions/24836798/anchor-hash-to-the-bottom-of-the-page 
+https://stackoverflow.com/questions/12102118/scrollintoview-animation (langzaam laten gaan)
+
+7. Princess jump animatie om hem mooier te maken
+https://css-tricks.com/making-css-animations-feel-natural/ 
+
+
+
+
+Afbeeldingen:
+1. Wolken
+https://pngimg.com/image/4334
+
+2. Ster:
+https://www.pngkey.com/download/u2q8t4u2o0q8y3r5_mario-star-png-transparent-image-mario-power-ups/ 
+
+3. Coins:
+https://www.nicepng.com/ourpic/u2q8i1r5t4e6i1r5_super-mario-coins-png-jpg-black-and-white/ 
+
+4. Peaches:
+https://www.pngegg.com/en/png-bbwlr 
+https://www.pngitem.com/middle/iRhwoii_princess-peach-8-bit-hd-png-download/ 
+https://www.pngitem.com/middle/hTmRhTw_pink-princess-peach-princesspeach-kawaii-mario-princess-peach/ 
+https://pbs.twimg.com/media/EoLz36-WMAI0PDu?format=png&name=360x360 
+https://www.pngfind.com/mpng/bxThhx_princess-peach-clipart-original-design-princesa-de-mario/ 
+
+5. Kasteel:
+https://www.mariowiki.com/Peach%27s_Castle#/media/File:Peach's_Castle_side_view.png
+
+6. Peach gezicht:
+https://nl.pinterest.com/pin/177118197833559692/ 
+
+7. vloer + plafond:
+https://www.researchgate.net/profile/Michael-Green-45/publication/326476609/figure/fig3/AS:649945438773256@1531970476506/The-first-two-levels-from-Super-Mario-Bros-The-levels-show-the-difference-between.png
+
+8. Buizen:
+https://www.nicepng.com/ourpic/u2q8r5u2y3q8u2w7_mario-tube-png-8-bit-mario-pipe/ 
+
+9. Logo:
+https://commons.wikimedia.org/wiki/File:Mario_Series_Logo.svg 
+
+10. Arrow:
+http://pixelartmaker.com/art/6d3068335985a26 
 
 </details>
