@@ -129,7 +129,7 @@ function muntjesWeg() {
     }, 1650);
 }
 
-
+// hulp gehad van Jeffrey maar begrijp het
 var toBottom = document.querySelector("section:nth-of-type(1) button");
 var bottomPls = document.querySelector('section:nth-of-type(2)')
 
